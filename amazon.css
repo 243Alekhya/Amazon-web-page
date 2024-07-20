@@ -1,0 +1,338 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+ border: 1.5px solid transparent;   
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/* box2 */
+.delfirst{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.delsec{
+    font-size: 1rem;
+    margin:3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+.navsearch{
+    display: flex;
+    background-color:#FEBD68;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.sel{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.seain{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+/* box 4 */
+.navadds{
+    display: flex;
+}
+.sel2{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+.hel{
+    font-size: 0.7rem;
+}
+.new{
+    font-size: .85rem;
+    font-weight: 700;
+}
+/* box 6 */
+.navcart i{
+     font-size: 30px;
+}
+.navcart{
+    font-size: .85rem;
+    font-weight: 700;
+}
+/* paenl */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelAll{
+    align-items: center;
+    justify-content: left;
+}
+.panelops p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.panelops{
+    justify-content: space-evenly;
+    width: 70%;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero */
+.hero{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* width: ; */
+}
+.heromes{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.heromes a{
+    color: #007185;
+    text-decoration: none;
+}
+/* shop */
+.shop{
+    display: flex;
+    background-color: #e2e7e6;;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.box{
+    border: none;
+    height: 400px;
+    width:23%;
+    /* margin:15px; */
+    /* justify-content: space-evenly; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box p{
+    margin-left:10px ;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.box a{
+    color: #007185;
+    font-size: .85rem;
+    margin-left:10px ;
+
+}
+.b1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("home\ -\ Copy.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin:10px; */
+    background-image: url("pc.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margi'n:10px; */
+    background-image: url("easter.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin:10px; */
+    background-image: url("gad.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b5{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("holi.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b6{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("diwali.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b7{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("scooty.jpg");
+    background-size: cover;
+    height: 330px;
+    border: .5px solid rgba(0, 242, 255,0.25) ;
+}
+.b8{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("furniture.jpeg");
+    background-size: cover;
+    height: 330px;
+}
+.b9{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margi'n:10px; */
+    background-image: url("skin.webp");
+    background-size: cover;
+    height: 330px;
+}
+.b10{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin:10px; */
+    background-image: url("fruit.jpg");
+    background-size: cover;
+    height: 330px;
+}
+.b11{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url("fashion.webp");
+    background-size: cover;
+    height: 330px;
+}
+.b12{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: .5px solid rgba(0, 242, 255,0.25) ;
+    background-image: url("sport.jpeg");
+    background-size: cover;
+    height: 330px;
+}
+.boxcon{
+    margin-left: 1rem;;
+    margin-right: 1rem;
+}
+/* footer */
+.foot1{
+    background-color:#37475a ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.foot2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 20px;
+}
+ul a{
+    color: #dddddd;
+    display: block;
+    font-size: .85rem;
+    margin-top: 10px;
+}
+.foot3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 70px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.end{
+    background-color:#0f1111;
+    border-top: .5px solid black;
+    color: white;
+    height: 80px;
+    font-size: .7rem;
+    text-align: center;
+}
+.pages{
+    margin-top: 5px;
+}
+.copy{
+    margin-top: 5px;
+}
